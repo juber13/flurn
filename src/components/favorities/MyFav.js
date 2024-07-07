@@ -33,7 +33,7 @@ const MyFav = () => {
         <h2 className="text-2xl font-bold mb-4 text-orange-400">Bookmarked!</h2>
         {favoritePokemons.length === 0 ? (
           <p className="text-center text-gray-600 text-2xl font-bold mb-4">
-            Add your favorites pokemons here! :)
+            Nothing to show now
           </p>
         ) : (
           <div className="grid grid-cols-2 md:grid-cols-5 gap-4 bg-orange-200 p-4">
